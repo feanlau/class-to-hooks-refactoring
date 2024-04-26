@@ -799,8 +799,8 @@ If you check the application now, you will see that the application is working a
 And we're also not getting any errors in the terminal now.
 
 ![no_error](./assests/no_error.png)
-Thanks for reading!
-You can find the complete source code for this application in this repository and a live demo of the deployed application here.
+## Thanks for reading!
+You can find the complete source code for this application in [this repository](https://github.com/feanlau/class-to-hooks-refactoring) and a live demo of the deployed application [here](https://class-to-hooks-refactoring.vercel.app/).
 
 Starting with ES6, there are many useful additions to JavaScript like:
 
