@@ -27,9 +27,33 @@ Create a new project using ```create-react-app```:
 npx create-react-app class-to-hooks-refactoring
 ```
 
-Once the project is created, delete all files from the src folder and create the index.js file and the styles.css file inside the src folder. Also, create a components folders inside the src folder.
+Once the project is created, delete all files from the ```src``` folder and create the ```index.js``` file and the ```styles.css``` file inside the ```src``` folder. Also, create a ```components``` folders inside the ```src``` folder.
 
-Install the axios library by executing the following command from the project folder:
+Install the ```axios``` library by executing the following command from the project folder:
+
+```
+npm install axios@0.21.1
+```
+
+Open the ```styles.css``` file and add the contents from [this GitHub repo](https://github.com/feanlau/class-to-hooks-refactoring) to it.
+
+## How to Create the Initial Pages
+
+Create a new file called ```Header.js``` inside the ```components``` folder with the following content:
+
+```
+import React from "react";
+
+const Header = () => {
+  return <h1 className="header">Random Users</h1>;
+};
+
+export default Header;
+```
+
+
+
+
 
 
 
