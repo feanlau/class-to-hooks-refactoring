@@ -798,7 +798,7 @@ If you check the application now, you will see that the application is working a
 ![correct_loading-3](./assests/correct_loading-3.gif)
 And we're also not getting any errors in the terminal now.
 
-no_error
+![no_error](./assests/no_error.png)
 Thanks for reading!
 You can find the complete source code for this application in this repository and a live demo of the deployed application here.
 
