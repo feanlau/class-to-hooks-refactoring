@@ -804,15 +804,15 @@ You can find the complete source code for this application in [this repository](
 
 Starting with ES6, there are many useful additions to JavaScript like:
 
-ES6 Destructuring
-Import and Export Syntax
-Arrow functions
-Promises
-Async/await
-Optional chaining operator and a lot more.
+- ES6 Destructuring
+- Import and Export Syntax
+- Arrow functions
+- Promises
+- Async/await
+- Optional chaining operator and a lot more.
 You can learn everything about all the ES6+ features in detail in my Mastering Modern JavaScript book.
 
-Check out free preview contents of the book here.
+> Check out free preview contents of the book here.
 Also, you can check out my free Introduction to React Router course to learn React Router from scratch.
 
 Want to stay up to date with regular content regarding JavaScript, React, Node.js? Follow me on LinkedIn.
