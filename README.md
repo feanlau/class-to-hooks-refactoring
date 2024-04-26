@@ -440,7 +440,7 @@ So this way we'll not lose the previous loaded users data and we'll also be able
 
 Now, if you check the application again, you will see the correct behavior of data loading.
 
-correct_loading
+![correct_loading](./assests/correct_loading.gif)
 How to Improve the Code using Async/await
 If you check the loadUsers function, you will see that the code looks complex and difficult to read.
 
@@ -571,7 +571,7 @@ export default class App extends React.Component {
 }
 Now, the loadUsers function code looks much cleaner and easier to understand than it was before. And if you check the application, you will see that the application is also working correctly.
 
-correct_loading-1
+![correct_loading-1](./assests/correct_loading-1.gif)
 How to Refactor Class Component Code to Functional Component Code
 We're done building out the complete functionality of the app. So let's refactor the code to use functional components with React Hooks.
 
@@ -738,7 +738,7 @@ So now with this change, the code inside the useEffect hook will be executed whe
 
 Now, if you check the application, you will see that the load more functionality is working again as expected.
 
-correct_loading-2
+![correct_loading-2](./assests/correct_loading-2.gif)
 But if you check the terminal/command prompt, you might see a warning as shown below (if you have ESLint installed on your machine):
 
 eslint_warning
@@ -795,7 +795,7 @@ useEffect(() => {
 }, [page]);
 If you check the application now, you will see that the application is working as expected without any issues.
 
-correct_loading-3
+![correct_loading-3](./assests/correct_loading-3.gif)
 And we're also not getting any errors in the terminal now.
 
 no_error
