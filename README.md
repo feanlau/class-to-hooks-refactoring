@@ -31,7 +31,7 @@ Once the project is created, delete all files from the ```src``` folder and crea
 
 Install the ```axios``` library by executing the following command from the project folder:
 
-```
+```shell
 npm install axios@0.21.1
 ```
 
@@ -41,7 +41,7 @@ Open the ```styles.css``` file and add the contents from [this GitHub repo](http
 
 Create a new file called ```Header.js``` inside the ```components``` folder with the following content:
 
-```
+```javascript
 import React from "react";
 
 const Header = () => {
@@ -53,7 +53,7 @@ export default Header;
 
 Create a new file called ```App.js``` inside the ```src``` folder with the following content:
 
-```
+```javascript
 import React from 'react';
 import Header from './components/Header';
 
