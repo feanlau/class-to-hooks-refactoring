@@ -81,7 +81,7 @@ Now, start the application by running the yarn start command from the terminal.
 
 You will see the following screen if you access the application at http://localhost:3000/.
 
-index_page
+![index_page](./assests/index_page.png)
 How to Make an API Call
 We will be using the Random Users API to get a list of random users.
 
