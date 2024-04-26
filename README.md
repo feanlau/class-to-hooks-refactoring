@@ -753,7 +753,7 @@ useEffect(() => {
 }, [page, users]);
 Let's check the application functionality now.
 
-infinite_loop
+![infinite_loop](./assests/infinite_loop.gif)
 As you can see, we're continuously getting a new set of users as we scroll the page and the application is going in an infinite loop.
 
 This is because when the component is mounted, the code inside the useEffect hook will be executed to make an API call. Once we get the result, we're setting the users array.
@@ -763,17 +763,19 @@ As users is mentioned in the dependencies list, once the users array is changed,
 So to fix this, we need to avoid referencing the external users array somehow. To do that, let's use the updater syntax of set state to set the users state.
 
 Therefore, change the below code:
-
+```
 setUsers([...users, ...response.data.results]);
+```
 to this code:
-
+```
 setUsers((users) => [...users, ...response.data.results]);
+```
 Here, we're using the previous value of users to create a new users array.
 
 Now, we can remove the users from the useEffect dependencies array as we're not referencing the external users variable.
 
-Your changed useEffect hook will look like this now:
-
+Your changed ```useEffect``` hook will look like this now:
+```
 useEffect(() => {
   const loadUsers = async () => {
     try {
@@ -793,6 +795,7 @@ useEffect(() => {
 
   loadUsers();
 }, [page]);
+```
 If you check the application now, you will see that the application is working as expected without any issues.
 
 ![correct_loading-3](./assests/correct_loading-3.gif)
